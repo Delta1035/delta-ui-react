@@ -2,3 +2,5 @@ node_modules
 .dumi
 dist
 doc-site
+*storybook.log
+storybook-static

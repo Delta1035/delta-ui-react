@@ -10,7 +10,9 @@
     "======= 构建站点 部署到github page =======": "",
     "build:site": "rimraf doc-site && dumi build",
     "preview:site": "cross-env SITE_BUILD_ENV=PREVIEW npm run build:site && serve doc-site",
-    "deploy:site": "npm run build:site && gh-pages -d doc-site"
+    "deploy:site": "npm run build:site && gh-pages -d doc-site",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "keywords": [],
   "author": "",
