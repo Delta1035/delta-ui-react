@@ -8,7 +8,7 @@
     "======= 开发环境在文档站点中调试组件 =======": "",
     "dev": "dumi dev",
     "======= 构建站点 部署到github page =======": "",
-    "build:site": "rimraf doc-site && cross-env SITE_BUILD_ENV=PREVIEW dumi build",
+    "build:site": "rimraf doc-site && dumi build",
     "preview:site": "cross-env SITE_BUILD_ENV=PREVIEW npm run build:site && serve doc-site",
     "deploy:site": "npm run build:site && gh-pages -d doc-site"
   },
@@ -39,8 +39,14 @@
     }
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "4.1.0",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
+    "@storybook/addon-a11y": "9.1.2",
+    "@storybook/addon-docs": "9.1.2",
+    "@storybook/addon-onboarding": "9.1.2",
+    "@storybook/addon-vitest": "9.1.2",
+    "@storybook/react-vite": "9.1.2",
     "@types/prop-types": "^15.7.15",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
@@ -49,6 +55,7 @@
     "cross-env": "^10.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "dumi": "^2.4.21",
+    "eslint-plugin-storybook": "9.1.2",
     "gh-pages": "^6.3.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.5",
@@ -57,7 +64,12 @@
     "react-dom": "^19.1.1",
     "rimraf": "^6.0.1",
     "serve": "^14.2.4",
-    "typescript": "^5.9.2"
+    "storybook": "9.1.2",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4",
+    "@vitest/browser": "^3.2.4",
+    "playwright": "^1.54.2",
+    "@vitest/coverage-v8": "^3.2.4"
   },
   "dependencies": {
     "prop-types": "^15.8.1"

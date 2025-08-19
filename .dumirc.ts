@@ -1,7 +1,11 @@
 import { defineConfig } from 'dumi';
 let base: string | undefined = '/happy-ui/';
 let publicPath: string | undefined = '/happy-ui/';
+console.log('SITE_BUILD_ENV >>>>>', process.env.SITE_BUILD_ENV);
+
 if (process.env.SITE_BUILD_ENV === 'PREVIEW') {
+  console.log('SITE_BUILD_ENV >>>>>', true);
+
   base = undefined;
   publicPath = undefined;
 }
