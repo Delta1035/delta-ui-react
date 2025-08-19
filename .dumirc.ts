@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
-let base: string | undefined = '';
-let publicPath: string | undefined = '';
+let base: string | undefined = '/happy-ui/';
+let publicPath: string | undefined = '/happy-ui/';
 if (process.env.SITE_BUILD_ENV === 'PREVIEW') {
   base = undefined;
   publicPath = undefined;
@@ -14,10 +14,10 @@ export default defineConfig({
     atomDirs: [{ type: 'component', dir: 'src' }],
   },
   title: 'Happy UI', // 站点名称
-  mode: 'site',
+  // mode: 'site',
   outputPath: 'doc-site', // 输出文件夹
   exportStatic: {}, // 后续会部署到 github pages 直接全部生成静态页面 不走前端路由
-  dynamicImport: {}, // 拆包 站点过大时可以优化首屏加载速度
+  // dynamicImport: {}, // 拆包 站点过大时可以优化首屏加载速度
   base,
   publicPath,
 });
