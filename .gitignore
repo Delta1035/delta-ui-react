@@ -4,3 +4,5 @@ dist
 doc-site
 *storybook.log
 storybook-static
+lib
+esm
