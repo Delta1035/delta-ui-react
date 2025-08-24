@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       delta-ui-demo:
-        specifier: ^2.0.2
-        version: 2.0.2
+        specifier: ^2.0.3
+        version: 2.0.3
       react:
         specifier: ^19.1.1
         version: 19.1.1
@@ -659,8 +659,8 @@ packages:
   deep-is@0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
 
-  delta-ui-demo@2.0.2:
-    resolution: {integrity: sha512-DiWYqVN2CrwUyYnaLRkhXWafLW42AbtjVn8aPaNcjbQbBJ317qto948E2Rd47KNQ91UiL6xh59jr4xLtwlnqwg==}
+  delta-ui-demo@2.0.3:
+    resolution: {integrity: sha512-wNkvhk8qJRZoV5dEAgKhXGLiqRIBrYKE7cHWE87i7gEXYBtapnCMghsgpbgyjK/fz/K2y3RlnQU6No1ttEtFjQ==}
 
   electron-to-chromium@1.5.208:
     resolution: {integrity: sha512-ozZyibehoe7tOhNaf16lKmljVf+3npZcJIEbJRVftVsmAg5TeA1mGS9dVCZzOwr2xT7xK15V0p7+GZqSPgkuPg==}
@@ -1686,7 +1686,7 @@ snapshots:
 
   deep-is@0.1.4: {}
 
-  delta-ui-demo@2.0.2:
+  delta-ui-demo@2.0.3:
     dependencies:
       '@babel/runtime': 7.28.3
       prop-types: 15.8.1
