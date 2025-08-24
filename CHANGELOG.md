@@ -1,9 +1,10 @@
-## <small>1.0.3 (2025-08-24)</small>
+## <small>1.0.4 (2025-08-24)</small>
 
 * build(build:type): 增加类型打包脚本 ([29981e9](https://github.com/Delta1035/happy-ui/commit/29981e9))
 * v1.0.1-1 ([370b597](https://github.com/Delta1035/happy-ui/commit/370b597))
 * v1.0.2 ([6b4330b](https://github.com/Delta1035/happy-ui/commit/6b4330b))
 * v1.0.2-0 ([b1afe6a](https://github.com/Delta1035/happy-ui/commit/b1afe6a))
+* v1.0.3 ([6d6e4d3](https://github.com/Delta1035/happy-ui/commit/6d6e4d3))
 * test(test): 增加测试配置 ([1b9b972](https://github.com/Delta1035/happy-ui/commit/1b9b972))
 * build(babel): 调整babel兼容性配置 ([dc6e0bf](https://github.com/Delta1035/happy-ui/commit/dc6e0bf))
 * build(build): 完善打包编译脚本 ([43b21ae](https://github.com/Delta1035/happy-ui/commit/43b21ae))
