@@ -1,7 +1,9 @@
 {
     "cSpell.words": [
         "corejs",
-        "umijs"
+        "Idents",
+        "umijs",
+        "zindex"
     ],
     "editor.formatOnSave": true,
     "typescript.tsdk": "node_modules/typescript/lib"
