@@ -29,6 +29,11 @@
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.9.0",
+  "files": [
+    "dist",
+    "esm",
+    "lib"
+  ],
   "========= 配合ES module达到tree shaking效果（将样式依赖文件标注为side effects，避免被误删除） =========": "",
   "sideEffects": [
     "dist/*",
