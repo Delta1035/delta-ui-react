@@ -16,7 +16,7 @@
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
     },
     "include": [
         "src",
@@ -27,5 +27,5 @@
         "node_modules",
         "src/**/demo",
         "src/**/__tests__"
-    ]
+    ],
 }
