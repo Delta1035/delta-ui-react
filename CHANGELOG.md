@@ -1,6 +1,15 @@
+## <small>2.0.3 (2025-08-24)</small>
+
+* chore(example): 增加测试项目 ([cde9607](https://github.com/Delta1035/happy-ui/commit/cde9607))
+* build(package.json): 设置要发布的文件 ([fbe5ad8](https://github.com/Delta1035/happy-ui/commit/fbe5ad8))
+* build(release): 完成打包发布脚本 ([24db9a6](https://github.com/Delta1035/happy-ui/commit/24db9a6))
+
+
+
 ## <small>2.0.2 (2025-08-24)</small>
 
 * v1.0.4 ([8e97c8c](https://github.com/Delta1035/happy-ui/commit/8e97c8c))
+* v2.0.2 ([4928fc7](https://github.com/Delta1035/happy-ui/commit/4928fc7))
 
 
 
