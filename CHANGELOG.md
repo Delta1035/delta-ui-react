@@ -1,4 +1,10 @@
-## <small>1.0.4 (2025-08-24)</small>
+## <small>2.0.2 (2025-08-24)</small>
+
+* v1.0.4 ([8e97c8c](https://github.com/Delta1035/happy-ui/commit/8e97c8c))
+
+
+
+## 2.0.0 (2025-08-24)
 
 * build(build:type): 增加类型打包脚本 ([29981e9](https://github.com/Delta1035/happy-ui/commit/29981e9))
 * v1.0.1-1 ([370b597](https://github.com/Delta1035/happy-ui/commit/370b597))
