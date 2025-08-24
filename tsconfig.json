@@ -24,6 +24,8 @@
         "stories",
     ],
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "src/**/demo",
+        "src/**/__tests__"
     ]
 }
