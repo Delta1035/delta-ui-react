@@ -1,9 +1,9 @@
-const gulp = require('gulp');
-const babel = require('gulp-babel');
-const less = require('gulp-less');
-const autoprefixer = require('gulp-autoprefixer');
-const cssnano = require('gulp-cssnano');
-const through2 = require('through2');
+import gulp from 'gulp';
+import babel from 'gulp-babel';
+import less from 'gulp-less';
+import autoprefixer from 'gulp-autoprefixer';
+import cssnano from 'gulp-cssnano';
+import through2 from 'through2';
 const paths = {
   dest: {
     lib: 'lib', // commonjs产物
@@ -78,7 +78,7 @@ function lessToCss() {
       .src(styles)
       .pipe(less())
       // 根据browserList增加前缀
-      .pipe(autoprefixer.default())
+      .pipe(autoprefixer())
       .pipe(
         cssnano({
           zindex: false, // 解决cssnano压缩样式时，出现的z-index问题
@@ -93,6 +93,5 @@ function lessToCss() {
 // 串行执行，避免环境变量冲突
 const buildScripts = gulp.series(compilerCJS, compilerESM);
 // 并行执行任务
-const build = gulp.parallel(buildScripts, copyLess, lessToCss);
-exports.build = build;
-exports.default = build;
+export const build = gulp.parallel(buildScripts, copyLess, lessToCss);
+export default build;
