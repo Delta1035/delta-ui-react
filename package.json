@@ -58,9 +58,9 @@
   ],
   "exports": {
     ".": {
+      "types": "./lib/index.d.ts",
       "import": "./esm/index.js",
-      "require": "./lib/index.js",
-      "types": "./lib/index.d.ts"
+      "require": "./lib/index.js"
     },
     "./es": "./esm/index.js",
     "./lib": "./lib/index.js",

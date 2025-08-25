@@ -1,8 +1,7 @@
-// import { useState } from 'react';
 import './App.css';
-import { Alert } from 'delta-ui-demo';
-import "delta-ui-demo/esm/alert/style/css.js";
 // import "delta-ui-demo/esm/alert/style/index.js";// 提示需要安装less
+import { Alert } from '@delta-ui-react';
+import "@delta-ui-react/alert/style/index.less";
 function App () {
   // const [count,setCount] = useState(0);
 
