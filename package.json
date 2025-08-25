@@ -1,13 +1,13 @@
 {
   "name": "delta-ui-react",
   "version": "2.0.3",
-  "description": "",
+  "description": "一个基于React的UI组件库",
   "======= cjs入口 ========": "",
   "main": "lib/index.js",
   "======= esm入口 ========": "",
   "module": "esm/index.js",
   "======= 定义类型入口 ========": "",
-  "typings": "lib/index.d.ts",
+  "types": "lib/index.d.ts",
   "scripts": {
     "commit": "git-cz",
     "======= 开发环境在文档站点中调试组件 =======": "",
@@ -25,15 +25,47 @@
     "test:update": "jest --updateSnapshot",
     "release": "ts-node ./scripts/release.ts"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "typescript",
+    "component-library",
+    "react-components",
+    "delta-ui"
+  ],
+  "author": "Delta",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delta1035/delta-ui-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/delta1035/delta-ui-react/issues"
+  },
+  "homepage": "https://delta1035.github.io/delta-ui-react",
   "packageManager": "pnpm@10.9.0",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
   "files": [
     "dist",
     "esm",
-    "lib"
+    "lib",
+    "README.md",
+    "CHANGELOG.md"
   ],
+  "exports": {
+    ".": {
+      "import": "./esm/index.js",
+      "require": "./lib/index.js",
+      "types": "./lib/index.d.ts"
+    },
+    "./es": "./esm/index.js",
+    "./lib": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
   "========= 配合ES module达到tree shaking效果（将样式依赖文件标注为side effects，避免被误删除） =========": "",
   "sideEffects": [
     "dist/*",
@@ -121,5 +153,21 @@
   "dependencies": {
     "@babel/runtime": "^7.28.3",
     "prop-types": "^15.8.1"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": false
+    },
+    "react-dom": {
+      "optional": false
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
