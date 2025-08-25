@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
-let base: string | undefined = '/happy-ui/';
-let publicPath: string | undefined = '/happy-ui/';
+let base: string | undefined = '/delta-ui-react/';
+let publicPath: string | undefined = '/delta-ui-react/';
 console.log('SITE_BUILD_ENV >>>>>', process.env.SITE_BUILD_ENV);
 
 if (process.env.SITE_BUILD_ENV === 'PREVIEW') {
