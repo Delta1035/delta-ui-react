@@ -1,5 +1,6 @@
-## <small>2.0.4 (2025-08-25)</small>
+## <small>2.0.5 (2025-08-25)</small>
 
+* v2.0.4 ([a5b941b](https://github.com/delta1035/delta-ui-react/commit/a5b941b))
 * chore(deploy): 修改站点部署分支 ([c357058](https://github.com/delta1035/delta-ui-react/commit/c357058))
 * chore(example): 增加example引入alert组件的示例 ([9bdfceb](https://github.com/delta1035/delta-ui-react/commit/9bdfceb))
 * chore(github permission): write权限 ([f510f33](https://github.com/delta1035/delta-ui-react/commit/f510f33))
