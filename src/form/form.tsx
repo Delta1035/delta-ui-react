@@ -1,5 +1,5 @@
 import React,{ CSSProperties,FormEvent,HTMLAttributes,ReactNode,useRef,useState } from "react";
-import { AnyObject,DtSafeAny } from "../types";
+import { AnyObject,DtSafeAny } from "@/types";
 
 export interface FormProps extends HTMLAttributes<HTMLFormElement> {
     className?: string;
