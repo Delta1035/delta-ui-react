@@ -1,9 +1,9 @@
-import React,{ use,useRef,useState } from "react";
+import React,{ CSSProperties,FormEvent,HTMLAttributes,ReactNode,useRef,useState } from "react";
 import { AnyObject,DtSafeAny } from "../types";
 
-export interface FormProps extends React.HTMLAttributes<HTMLFormElement> {
+export interface FormProps extends HTMLAttributes<HTMLFormElement> {
     className?: string;
-    style?: React.CSSProperties;
+    style?: CSSProperties;
     /**
      * 提交回调
      * @param values 
@@ -20,7 +20,7 @@ export interface FormProps extends React.HTMLAttributes<HTMLFormElement> {
      * 表单初始值
      */
     initialValues?: AnyObject;
-    children?: React.ReactNode;
+    children?: ReactNode;
 };
 
 const From = (props: FormProps) => {
@@ -33,7 +33,7 @@ const From = (props: FormProps) => {
         values[key] = value;
     };
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = (e: FormEvent) => {
 
     };
 };
