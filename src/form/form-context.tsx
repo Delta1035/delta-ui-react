@@ -7,5 +7,7 @@ export interface FormContextProps {
     onValueChange?: (key: string,value: DtSafeAny) => void;
     validateRegister?: (name: string,cb: Function) => void;
 }
-
+/**
+ * @description: 表单上下文,用于表单组件之间共享数据
+ */
 export default createContext<FormContextProps>({});
