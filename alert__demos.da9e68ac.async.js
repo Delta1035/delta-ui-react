@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdelta_ui_react=self.webpackChunkdelta_ui_react||[]).push([[819],{57198:function(e,n,u){u.r(n);var t=u(13638),a=u(69979);n.default=function(){return(0,a.jsx)(t.default,{kind:"warning",children:"\u8FD9\u662F\u4E00\u6761\u8B66\u544A\u63D0\u793A"})}}}]);
