@@ -23,7 +23,7 @@ export interface FormProps extends HTMLAttributes<HTMLFormElement> {
     children?: ReactNode;
 };
 
-const From = (props: FormProps) => {
+const Form = (props: FormProps) => {
     const { initialValues } = props;
     const [values,setValues] = useState(initialValues || {});
     const validatorMap = useRef(new Map<string,Function>());
@@ -37,3 +37,5 @@ const From = (props: FormProps) => {
 
     };
 };
+
+export default Form;

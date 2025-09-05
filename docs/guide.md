@@ -150,7 +150,7 @@ pnpm commit
 - **TypeScript**: 类型支持
 - **dumi**: 文档站点生成
 - **Jest**: 单元测试
-- **Less**: 样式预处理器
+- **Scss**: 样式预处理器
 - **Gulp**: 构建工具
 - **Babel**: 代码编译
 - **ESLint**: 代码检查
