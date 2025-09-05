@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdelta_ui_react=self.webpackChunkdelta_ui_react||[]).push([[143],{67872:function(d,n,t){t.r(n),t.d(n,{demos:function(){return s}});var u=t(52136),s={}},36592:function(d,n,t){t.r(n),t.d(n,{texts:function(){return u}});const u=[]}}]);
