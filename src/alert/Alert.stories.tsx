@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj } from '@storybook/react-webpack5';
 import Alert from './index';
 
 const meta: Meta<typeof Alert> = {
@@ -16,8 +16,8 @@ const meta: Meta<typeof Alert> = {
     kind: {
       control: {
         type: 'select',
-        options: ['info', 'positive', 'negative', 'warning'],
       },
+      options: ['info', 'positive', 'negative', 'warning'],
       description: 'Alert 的类型',
       defaultValue: 'info',
     },
