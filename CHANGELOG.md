@@ -1,7 +1,23 @@
+## <small>2.0.7 (2025-12-12)</small>
+
+* fix: ci error ([7ed9830](https://github.com/delta1035/delta-ui-react/commit/7ed9830))
+* build: storybook ([8d5c169](https://github.com/delta1035/delta-ui-react/commit/8d5c169))
+* build(dumi): 解决dumi构建报错 ([4373d7e](https://github.com/delta1035/delta-ui-react/commit/4373d7e))
+* feat(form): 完善一下form组建 ([033faef](https://github.com/delta1035/delta-ui-react/commit/033faef))
+* feat(form): 增加form组件 ([bf911c1](https://github.com/delta1035/delta-ui-react/commit/bf911c1))
+* feat(react-webpack-example): webpack config example ([ec438cb](https://github.com/delta1035/delta-ui-react/commit/ec438cb))
+* docs(docs): 替换logo,解决api table不解析的问题 ([6acb670](https://github.com/delta1035/delta-ui-react/commit/6acb670))
+* docs(dumi): 重构dumi配置,解决文档显示问题 ([154983c](https://github.com/delta1035/delta-ui-react/commit/154983c))
+* chore(example): 调整example引入ui组件的方式 ([0fafbef](https://github.com/delta1035/delta-ui-react/commit/0fafbef))
+* chore(path alias): 路径别名 ([8739b67](https://github.com/delta1035/delta-ui-react/commit/8739b67))
+
+
+
 ## <small>2.0.6 (2025-08-25)</small>
 
 * v2.0.4 ([a5b941b](https://github.com/delta1035/delta-ui-react/commit/a5b941b))
 * v2.0.5 ([0ece708](https://github.com/delta1035/delta-ui-react/commit/0ece708))
+* v2.0.6 ([d68ccc6](https://github.com/delta1035/delta-ui-react/commit/d68ccc6))
 * chore(deploy): 修改站点部署分支 ([c357058](https://github.com/delta1035/delta-ui-react/commit/c357058))
 * chore(example): 增加example引入alert组件的示例 ([9bdfceb](https://github.com/delta1035/delta-ui-react/commit/9bdfceb))
 * chore(github permission): write权限 ([f510f33](https://github.com/delta1035/delta-ui-react/commit/f510f33))
