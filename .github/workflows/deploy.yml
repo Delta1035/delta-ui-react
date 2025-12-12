@@ -68,7 +68,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'doc-site'
+          path: 'storybook-static'
 
   # 部署任务
   deploy:
